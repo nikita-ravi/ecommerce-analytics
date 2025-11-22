@@ -1,0 +1,189 @@
+{
+  "report_generated": "2025-11-21T21:40:38.009144",
+  "analysis_period": {
+    "start_date": "2024-12-01",
+    "end_date": "2025-02-28",
+    "duration_months": 3
+  },
+  "overview": {
+    "total_revenue": 1288648.5637571593,
+    "total_customers": 1677,
+    "total_orders": 3368,
+    "avg_order_value": 21.177481412807932,
+    "total_products": 20
+  },
+  "ab_testing": {
+    "revenue_uplift_pct": -13.660436293588187,
+    "order_frequency_uplift_pct": 10.760834080992176,
+    "repeat_rate_uplift_pct": 4.552115016374408,
+    "roi_pct": -189.68435481810502,
+    "statistically_significant": false,
+    "p_value": 0.16127113294073941,
+    "recommendation": "Do not implement"
+  },
+  "retention": {
+    "month_0_retention_pct": 100.0,
+    "month_1_retention_pct": 33.15151578827294,
+    "month_2_retention_pct": 36.47141330483569,
+    "month_3_retention_pct": 34.73684210526316,
+    "baseline_churn_pct": 66.84848421172707,
+    "target_churn_pct": 57.48969642208528,
+    "churn_reduction_target_pct": 13.999999999999998,
+    "avg_ltv": 100.0
+  },
+  "segmentation": {
+    "total_segments": 9,
+    "top_segment": "Champions",
+    "top_segment_revenue_pct": 52.2168930866586,
+    "champions_pct": 18.36612999403697,
+    "at_risk_pct": 39.296362552176504
+  },
+  "revenue_concentration": {
+    "top_10_pct_customers_revenue_pct": 50.14972976604019,
+    "top_20_pct_customers_revenue_pct": 64.51370685078118,
+    "pareto_ratio": "64.5% from top 20%"
+  },
+  "customer_value": {
+    "avg_clv": 831.237137745975,
+    "median_clv": 392.12000000000006,
+    "high_value_customers": 335,
+    "high_value_revenue": 899311.1900000002
+  },
+  "churn_analysis": {
+    "high_risk_customers": 659,
+    "high_risk_pct": 39.296362552176504,
+    "revenue_at_risk": 291240.88,
+    "revenue_at_risk_pct": 20.892688720223234
+  },
+  "growth": {
+    "monthly_revenue_trend": [
+      {
+        "YearMonth": "2024-11",
+        "TotalRevenue": 43616.49000000019
+      },
+      {
+        "YearMonth": "2024-12",
+        "TotalRevenue": 478106.62000001746
+      },
+      {
+        "YearMonth": "2025-01",
+        "TotalRevenue": 470734.200000014
+      },
+      {
+        "YearMonth": "2025-02",
+        "TotalRevenue": 401527.3700000113
+      }
+    ],
+    "customer_acquisition_trend": [
+      {
+        "Month": "2024-11",
+        "NewCustomers": 95
+      },
+      {
+        "Month": "2024-12",
+        "NewCustomers": 789
+      },
+      {
+        "Month": "2025-01",
+        "NewCustomers": 445
+      },
+      {
+        "Month": "2025-02",
+        "NewCustomers": 350
+      }
+    ],
+    "total_new_customers": 1679
+  },
+  "geographic": {
+    "top_region": "London",
+    "top_region_revenue": 312769.7800000066,
+    "uk_regions_count": 12,
+    "regional_distribution": [
+      {
+        "Region": "London",
+        "Customers": 400,
+        "Revenue": 312769.7800000066,
+        "Orders": 771
+      },
+      {
+        "Region": "South East",
+        "Customers": 252,
+        "Revenue": 179426.75000000038,
+        "Orders": 471
+      },
+      {
+        "Region": "East of England",
+        "Customers": 158,
+        "Revenue": 115431.54999999856,
+        "Orders": 291
+      },
+      {
+        "Region": "North West",
+        "Customers": 170,
+        "Revenue": 109278.10999999891,
+        "Orders": 330
+      },
+      {
+        "Region": "West Midlands",
+        "Customers": 122,
+        "Revenue": 90691.10999999865,
+        "Orders": 345
+      }
+    ]
+  },
+  "products": {
+    "top_product_revenue": 30460.65000000004,
+    "top_products": [
+      {
+        "StockCode": "22423",
+        "ProductName": "REGENCY CAKESTAND 3 TIER",
+        "TotalRevenue": 30460.65000000004
+      },
+      {
+        "StockCode": "85123A",
+        "ProductName": "WHITE HANGING HEART T-LIGHT HOLDER",
+        "TotalRevenue": 20025.55000000005
+      },
+      {
+        "StockCode": "85099B",
+        "ProductName": "JUMBO BAG RED RETROSPOT",
+        "TotalRevenue": 13352.999999999998
+      },
+      {
+        "StockCode": "79321",
+        "ProductName": "CHILLI LIGHTS",
+        "TotalRevenue": 13078.95999999999
+      },
+      {
+        "StockCode": "POST",
+        "ProductName": "POSTAGE",
+        "TotalRevenue": 12705.0
+      },
+      {
+        "StockCode": "84879",
+        "ProductName": "ASSORTED COLOUR BIRD ORNAMENT",
+        "TotalRevenue": 9031.770000000028
+      },
+      {
+        "StockCode": "22720",
+        "ProductName": "SET OF 3 CAKE TINS PANTRY DESIGN ",
+        "TotalRevenue": 7969.650000000004
+      },
+      {
+        "StockCode": "22960",
+        "ProductName": "JAM MAKING SET WITH JARS",
+        "TotalRevenue": 7264.5
+      },
+      {
+        "StockCode": "22469",
+        "ProductName": "HEART OF WICKER SMALL",
+        "TotalRevenue": 6792.160000000016
+      },
+      {
+        "StockCode": "47566",
+        "ProductName": "PARTY BUNTING",
+        "TotalRevenue": 6090.200000000001
+      }
+    ]
+  }
+}

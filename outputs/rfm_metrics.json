@@ -1,0 +1,105 @@
+{
+  "analysis_date": "2025-02-28T17:01:00",
+  "total_customers": 1677,
+  "total_revenue": 1393984.6800000002,
+  "avg_clv": 831.237137745975,
+  "median_clv": 392.12000000000006,
+  "top_10_pct_revenue_concentration": 50.14972976604019,
+  "top_20_pct_revenue_concentration": 64.51370685078118,
+  "churn_risk_customers": 659,
+  "churn_risk_pct": 39.296362552176504,
+  "churn_risk_revenue": 291240.88,
+  "churn_risk_revenue_pct": 20.892688720223234,
+  "segments": [
+    {
+      "Segment": "Champions",
+      "Customers": 308,
+      "TotalRevenue": 727895.49,
+      "AvgFrequency": 4.626623376623376,
+      "AvgRecency": 11.39935064935065,
+      "AvgTransactionValue": 44.43179686626404,
+      "RevenuePercent": 52.2168930866586,
+      "CustomerPercent": 18.36612999403697
+    },
+    {
+      "Segment": "About To Sleep",
+      "Customers": 453,
+      "TotalRevenue": 214827.42,
+      "AvgFrequency": 1.3421633554083885,
+      "AvgRecency": 51.41059602649007,
+      "AvgTransactionValue": 34.431729909366325,
+      "RevenuePercent": 15.411031633432302,
+      "CustomerPercent": 27.01252236135957
+    },
+    {
+      "Segment": "Loyal Customers",
+      "Customers": 181,
+      "TotalRevenue": 168743.2,
+      "AvgFrequency": 2.657458563535912,
+      "AvgRecency": 26.25414364640884,
+      "AvgTransactionValue": 25.984291282261413,
+      "RevenuePercent": 12.105097166491099,
+      "CustomerPercent": 10.793082886106141
+    },
+    {
+      "Segment": "Potential Loyalist",
+      "Customers": 181,
+      "TotalRevenue": 82920.11,
+      "AvgFrequency": 1.143646408839779,
+      "AvgRecency": 12.049723756906078,
+      "AvgTransactionValue": 31.17457046463471,
+      "RevenuePercent": 5.948423335613703,
+      "CustomerPercent": 10.793082886106141
+    },
+    {
+      "Segment": "Hibernating",
+      "Customers": 214,
+      "TotalRevenue": 57558.34,
+      "AvgFrequency": 1.0,
+      "AvgRecency": 84.3411214953271,
+      "AvgTransactionValue": 34.54077170595002,
+      "RevenuePercent": 4.129051116974973,
+      "CustomerPercent": 12.760882528324387
+    },
+    {
+      "Segment": "Promising",
+      "Customers": 93,
+      "TotalRevenue": 51806.47,
+      "AvgFrequency": 1.10752688172043,
+      "AvgRecency": 33.44086021505376,
+      "AvgTransactionValue": 30.74139478251955,
+      "RevenuePercent": 3.7164303699521293,
+      "CustomerPercent": 5.545617173524151
+    },
+    {
+      "Segment": "At Risk",
+      "Customers": 48,
+      "TotalRevenue": 40650.420000000006,
+      "AvgFrequency": 2.5416666666666665,
+      "AvgRecency": 82.29166666666667,
+      "AvgTransactionValue": 28.71908374937043,
+      "RevenuePercent": 2.9161310438504966,
+      "CustomerPercent": 2.862254025044723
+    },
+    {
+      "Segment": "New Customers",
+      "Customers": 74,
+      "TotalRevenue": 29952.370000000003,
+      "AvgFrequency": 1.0,
+      "AvgRecency": 11.594594594594595,
+      "AvgTransactionValue": 26.765891169437246,
+      "RevenuePercent": 2.148687172085708,
+      "CustomerPercent": 4.412641621943948
+    },
+    {
+      "Segment": "Lost",
+      "Customers": 125,
+      "TotalRevenue": 19630.86,
+      "AvgFrequency": 1.072,
+      "AvgRecency": 47.344,
+      "AvgTransactionValue": 24.183324714541907,
+      "RevenuePercent": 1.4082550749409959,
+      "CustomerPercent": 7.4537865235539655
+    }
+  ]
+}

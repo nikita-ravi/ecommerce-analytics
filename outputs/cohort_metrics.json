@@ -1,0 +1,16 @@
+{
+  "month_0_avg_retention": 100.0,
+  "month_0_median_retention": 100.0,
+  "month_1_avg_retention": 33.15151578827294,
+  "month_1_median_retention": 36.6751269035533,
+  "month_2_avg_retention": 36.47141330483569,
+  "month_2_median_retention": 36.47141330483569,
+  "month_3_avg_retention": 34.73684210526316,
+  "month_3_median_retention": 34.73684210526316,
+  "baseline_month1_churn": 66.84848421172707,
+  "target_month1_churn": 57.48969642208528,
+  "churn_reduction_pct": 13.999999999999998,
+  "analysis_date": "2025-11-21T21:40:34.165178",
+  "total_cohorts": 4,
+  "max_cohort_age_months": 3
+}
