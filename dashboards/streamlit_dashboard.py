@@ -14,6 +14,8 @@ from plotly.subplots import make_subplots
 import json
 import duckdb
 from datetime import datetime
+import os
+from pathlib import Path
 
 # Page configuration
 st.set_page_config(
@@ -49,24 +51,35 @@ st.markdown("""
 </style>
 """, unsafe_allow_html=True)
 
+# Get base directory (works both locally and on Streamlit Cloud)
+def get_project_root():
+    """Get the project root directory"""
+    current_file = Path(__file__).resolve()
+    # Go up from dashboards/ to project root
+    return current_file.parent.parent
+
 # Load data
 @st.cache_data
 def load_data():
     """Load all analysis data"""
-    con = duckdb.connect('../data/ecommerce.db', read_only=True)
+    project_root = get_project_root()
+    data_dir = project_root / 'data'
+    outputs_dir = project_root / 'outputs'
+
+    con = duckdb.connect(str(data_dir / 'ecommerce.db'), read_only=True)
 
     # Load comprehensive metrics
-    with open('../outputs/comprehensive_metrics.json', 'r') as f:
+    with open(outputs_dir / 'comprehensive_metrics.json', 'r') as f:
         metrics = json.load(f)
 
     # Load detailed data
-    rfm_data = pd.read_csv('../outputs/rfm_customer_data.csv')
-    cohort_data = pd.read_csv('../outputs/cohort_data.csv')
-    retention_matrix = pd.read_csv('../outputs/retention_matrix.csv', index_col=0)
-    segment_summary = pd.read_csv('../outputs/rfm_segment_summary.csv')
-    revenue_by_month = pd.read_csv('../outputs/revenue_by_month.csv')
-    revenue_by_region = pd.read_csv('../outputs/revenue_by_region.csv')
-    product_performance = pd.read_csv('../outputs/product_performance.csv')
+    rfm_data = pd.read_csv(outputs_dir / 'rfm_customer_data.csv')
+    cohort_data = pd.read_csv(outputs_dir / 'cohort_data.csv')
+    retention_matrix = pd.read_csv(outputs_dir / 'retention_matrix.csv', index_col=0)
+    segment_summary = pd.read_csv(outputs_dir / 'rfm_segment_summary.csv')
+    revenue_by_month = pd.read_csv(outputs_dir / 'revenue_by_month.csv')
+    revenue_by_region = pd.read_csv(outputs_dir / 'revenue_by_region.csv')
+    product_performance = pd.read_csv(outputs_dir / 'product_performance.csv')
 
     # Load transaction data for detailed analysis
     transactions = con.execute("SELECT * FROM transactions").df()
